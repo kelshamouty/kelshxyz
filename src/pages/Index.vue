@@ -3,21 +3,9 @@
     <div class="container skinny-contain">
       <div class="row">
         <div class="col-lg-12">
-
-          <h1 class="display-1 mt-32">
-            Hi, 👋🏻 &nbsp;I made this neumorphic 😱 blog design using Gridsome.<br /><br />
-
-            I hope that you like it.<br />
-            I had a lot of fun creating it.<br />
-            Check out my personal site <a href="https://bradsiefert.com">here</a>.<br />
-          </h1>
-          
-          <hr class="my-5">
-
-          <h2>Read Me 📚</h2>
           <p>
-            I hope that this starter helps you create something wonderful! My personal site was needing an update and this is what I came up with. I hope that it helps you to more quickly make whatever it is that you're trying to make.
-          </p>
+          Former astrophyicist, data enthusiast and a frever learner.
+	  </p>
           
           <hr class="my-4">
 

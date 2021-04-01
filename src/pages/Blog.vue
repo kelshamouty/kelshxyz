@@ -43,6 +43,9 @@
 </template>
 
 <script>
+
+import { Pager } from 'gridsome';
+
 export default {
   metaInfo() {
     return {
@@ -53,9 +56,13 @@ export default {
 </script>
 
 <page-query>
-  query {
-    allBlog {  
-      edges {
+ query ($page: Int) {
+  allBlog(perPage: 2, page: $page) @paginate {
+    pageInfo {
+      totalPages
+      currentPage
+    }
+    edges {
         node {
           title
           path
@@ -66,6 +73,6 @@ export default {
         }
       }
     }
-  }
+}
 </page-query>
 

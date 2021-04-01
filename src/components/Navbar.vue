@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light">
     <h1 class="navbar-brand">
       <g-link to="/">
-        Neumorphic
+        Khaled Elshamouty
       </g-link>
     </h1>
 

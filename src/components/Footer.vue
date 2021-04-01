@@ -1,18 +1,8 @@
 <template>
   <footer class="footer">
-    <div class="container skinny-contain">
-      <div class="row">
-        <div class="col-12">
-          <h5>Credits</h5>
-          <p class="mb-0">
-            Powered by <a target="_blank" rel="noopener" title="Link to Gridsome" href="https://gridsome.org">Gridsome</a>, 
-            <a target="_blank" rel="noopener" title="Link to Bootstrap" href="https://getbootstrap.com">Bootstrap</a>,
-            <a target="_blank" rel="noopener" title="Link to Netlify" href="https://netlify.com">Netlify</a>.
-            Images & thoughts &copy; {{ new Date().getFullYear() }} Gridsome Neumorphic.
-          </p>
-        </div>
-      </div>
-    </div>
+  	<p class="mb-0">
+            All rights reserved.
+    </p>
   </footer>
 </template>
 

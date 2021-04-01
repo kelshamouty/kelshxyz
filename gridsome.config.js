@@ -5,10 +5,10 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome Neumorphic',
-  siteDescription: "Gridsome Neumorphic is a blog starter created by Brad Siefert.",
+  siteName: 'Khaled Elshamouty',
+  siteDescription: "Khaled Elshamouty.",
   siteUrl: 'https://gridsome-neumorphic.netlify.app',
-  titleTemplate: `Gridsome Neumorphic / %s`,
+  titleTemplate: `Khaled Elshamouty / %s`,
   icon: 'src/favicon.png',
   plugins: [
     {

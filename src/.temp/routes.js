@@ -1,26 +1,26 @@
-const c1 = () => import(/* webpackChunkName: "page--src--templates--blog-post-vue" */ "/Users/bksiefert/Sites/personal/gridsome-neumorphic-starter/src/templates/BlogPost.vue")
-const c2 = () => import(/* webpackChunkName: "page--src--pages--success-vue" */ "/Users/bksiefert/Sites/personal/gridsome-neumorphic-starter/src/pages/Success.vue")
-const c3 = () => import(/* webpackChunkName: "page--src--pages--contact-vue" */ "/Users/bksiefert/Sites/personal/gridsome-neumorphic-starter/src/pages/Contact.vue")
-const c4 = () => import(/* webpackChunkName: "page--src--pages--blog-vue" */ "/Users/bksiefert/Sites/personal/gridsome-neumorphic-starter/src/pages/Blog.vue")
-const c5 = () => import(/* webpackChunkName: "page--src--pages--about-vue" */ "/Users/bksiefert/Sites/personal/gridsome-neumorphic-starter/src/pages/About.vue")
-const c6 = () => import(/* webpackChunkName: "page--src--pages--404-vue" */ "/Users/bksiefert/Sites/personal/gridsome-neumorphic-starter/src/pages/404.vue")
-const c7 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/Users/bksiefert/Sites/personal/gridsome-neumorphic-starter/src/pages/Index.vue")
+const c1 = () => import(/* webpackChunkName: "page--src--pages--blog-vue" */ "/home/kelsh/kelshxyz/src/pages/Blog.vue")
+const c2 = () => import(/* webpackChunkName: "page--src--templates--blog-post-vue" */ "/home/kelsh/kelshxyz/src/templates/BlogPost.vue")
+const c3 = () => import(/* webpackChunkName: "page--src--pages--success-vue" */ "/home/kelsh/kelshxyz/src/pages/Success.vue")
+const c4 = () => import(/* webpackChunkName: "page--src--pages--contact-vue" */ "/home/kelsh/kelshxyz/src/pages/Contact.vue")
+const c5 = () => import(/* webpackChunkName: "page--src--pages--about-vue" */ "/home/kelsh/kelshxyz/src/pages/About.vue")
+const c6 = () => import(/* webpackChunkName: "page--src--pages--404-vue" */ "/home/kelsh/kelshxyz/src/pages/404.vue")
+const c7 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/home/kelsh/kelshxyz/src/pages/Index.vue")
 
 export default [
   {
-    path: "/blog/:title/",
+    path: "/blog/:page(\\d+)?/",
     component: c1
   },
   {
-    path: "/success/",
+    path: "/blog/:title/",
     component: c2
   },
   {
-    path: "/contact/",
+    path: "/success/",
     component: c3
   },
   {
-    path: "/blog/",
+    path: "/contact/",
     component: c4
   },
   {
